@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/67a19f901c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="mainStyle.css">
+</head>
+<body>
+
+<div id="background">   
+    <div id="content-container">
+        <!-- Top bar -->
+        <div id="top-bar">
+          <div id="left-section">
+            <img src="" alt="Your Logo">
+            <div id="website-name">Portfolio website</div>
+          </div>
+          <div id="right-section">
+            <div id="search-bar">
+              <input type="text" placeholder="Search...">
+              <button type="submit" class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- end of top bar-->
+
+
+        <!-- Middle section with buttons -->
+        <div id="middle-section">
+          <div id="button-bar">
+              <a href="#" class="button">About me</a>
+              <a href="#" class="button">Projects</a>
+              <a href="#" class="button" onclick="loadCV()">CV</a>
+              <a href="#" class="button">Contact</a>
+          </div>
+           
+        <!-- Content section that changes after button press -->
+        <div id="content">
+          <!-- Initial content goes here -->
+        </div>
+        </div>
+    </div>
+</div>
+<script src="cvLoad.js"></script>
+</body>
+</html>
